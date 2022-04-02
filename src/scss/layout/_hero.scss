@@ -1,0 +1,25 @@
+.hero {
+  //   background-image: url(@hero-img_@2x.jpg) 0 0 no-repeat;
+}
+.hero-bg {
+}
+.hero-menu {
+  margin-top: 100px;
+  background-color: #000;
+  //   margin: 0 auto;
+}
+.hero-menu__list {
+  margin-top: calc(50% / -2);
+  display: flex;
+  justify-content: center;
+}
+.hero-item:last-child {
+  margin-right: 0;
+}
+.hero-menu__link {
+  font-family: "Oranienbaum";
+  @include font(144px, 400, 1.16);
+  text-decoration: underline;
+  margin-right: 119px;
+  color: #ffffff;
+}

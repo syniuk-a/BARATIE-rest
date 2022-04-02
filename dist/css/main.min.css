@@ -1,0 +1,209 @@
+@font-face {
+  font-family: Oswald;
+  font-display: swap;
+  src: url("../fonts/Oswald-Bold.woff2") format("woff2"), url("../fonts/Oswald-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Overlock;
+  font-display: swap;
+  src: url("../fonts/Overlock-Bold.woff2") format("woff2"), url("../fonts/Overlock-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: PatuaOne;
+  font-display: swap;
+  src: url("../fonts/PatuaOne-Regular.woff2") format("woff2"), url("../fonts/PatuaOne-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: PlayfairDisplaySC;
+  font-display: swap;
+  src: url("../fonts/PlayfairDisplaySC-Bold.woff2") format("woff2"), url("../fonts/PlayfairDisplaySC-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Oswald;
+  font-display: swap;
+  src: url("../fonts/Oswald-SemiBold.woff2") format("woff2"), url("../fonts/Oswald-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Oswald;
+  font-display: swap;
+  src: url("../fonts/Oswald-Medium.woff2") format("woff2"), url("../fonts/Oswald-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  background: #000;
+}
+
+.container {
+  position: absolute;
+  width: 100vw;
+  padding-left: 20px;
+  padding-left: 20px;
+}
+
+.hader-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hader-nav {
+  margin: 30px 17px 0 0;
+}
+
+.header-logo__box {
+  margin-left: 31px;
+}
+
+.header-logo {
+  text-transform: uppercase;
+  font-family: "Oswald";
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.48;
+  color: white;
+}
+
+.menu-container {
+  display: flex;
+}
+
+.hader-nav__list {
+  display: flex;
+}
+
+.hader-nav__item {
+  display: inherit;
+}
+.hader-nav__item:last-child {
+  margin-right: 10px;
+}
+
+.hader-nav__link {
+  display: inherit;
+  align-items: center;
+  font-family: "Patua One";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: white;
+  margin-right: 38px;
+}
+
+.svg {
+  background: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.svg-img {
+  height: 40px;
+  width: 40px;
+  fill: #000;
+  color: #000;
+}
+
+.hero-menu {
+  margin-top: 100px;
+  background-color: #000;
+}
+
+.hero-menu__list {
+  margin-top: -25%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-item:last-child {
+  margin-right: 0;
+}
+
+.hero-menu__link {
+  font-family: "Oranienbaum";
+  font-size: 144px;
+  font-weight: 400;
+  line-height: 1.16;
+  text-decoration: underline;
+  margin-right: 119px;
+  color: #ffffff;
+}
+
+.footer {
+  display: flex;
+  border-radius: 15px;
+  background-image: url(../img/photo_2021-05-23_11-52-17.jpg);
+  width: 150px;
+  height: 150px;
+}
+
+.footer-title {
+  color: #fff;
+  font-size: 36px;
+}
+
+.footer-title__list {
+  border-radius: 15px;
+  background-color: aquamarine;
+}
+
+.footer-title__link {
+  color: #252525;
+}
+
+.footer-bg {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+}

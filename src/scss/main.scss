@@ -1,0 +1,15 @@
+// Base
+@import "./fonts"; //шрифты
+@import "./base/common"; // общие настройки
+@import "./base/_container"; // настройки контейнера
+
+// Util
+@import "./util/_variables";
+@import "./base/mixin"; // хедер
+
+// heder
+@import "./layout/header";
+// мейн
+@import "./layout/hero";
+// днище
+@import "./layout/footer";
