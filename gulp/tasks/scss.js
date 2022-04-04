@@ -16,7 +16,7 @@ export const scss = () => {
                 title: "SCSS",
                 message: "Error: <%= error.message %>"
             })))
-        .pipe(app.plugins.replace(/@img\//g, './img/'))
+        .pipe(app.plugins.replace(/@img\//g, '../img/'))
         .pipe(sass({
             outputStyle: 'expanded'
         }))
@@ -54,9 +54,11 @@ export const scss = () => {
                 cleanCss()
             )
         )
-        .pipe(rename({
-            extname: ".min.css"
-        }))
+        .pipe(
+            rename({
+                extname: ".min.css"
+            })
+        )
         .pipe(app.gulp.dest(app.path.build.css))
         .pipe(app.plugins.browsersync.stream());
                 

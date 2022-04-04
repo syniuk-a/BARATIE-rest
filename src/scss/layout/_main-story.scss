@@ -1,0 +1,30 @@
+.story {
+  padding-bottom: 93px;
+  background-color: rgb(165, 161, 161);
+}
+.story-title {
+  font-family: "Oranienbaum";
+  @include font(72px, 400, 1.15);
+  color: #000000;
+  text-align: center;
+}
+.story-subtitle {
+  margin-top: 26px;
+  margin-bottom: 32px;
+  text-align: center;
+  font-family: "Oranienbaum";
+  @include font(42px, 400, 1.16);
+  color: #000000;
+}
+.story-btn {
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+  text-align: center;
+  width: 375px;
+  height: 75px;
+  background-color: rgba(59, 49, 49, 1);
+  font-family: "Oswald";
+  @include font(40px, 600, 1.48);
+  color: #ffffff;
+}
