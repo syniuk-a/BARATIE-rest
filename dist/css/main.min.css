@@ -1,8 +1,8 @@
 @font-face {
   font-family: Oswald;
   font-display: swap;
-  src: url("../fonts/Oswald-Bold.woff2") format("woff2"), url("../fonts/Oswald-Bold.woff") format("woff");
-  font-weight: 700;
+  src: url("../fonts/Oswald-SemiBold.woff2") format("woff2"), url("../fonts/Oswald-SemiBold.woff") format("woff");
+  font-weight: 600;
   font-style: normal;
 }
 @font-face {
@@ -27,13 +27,6 @@
   font-style: normal;
 }
 @font-face {
-  font-family: Oswald;
-  font-display: swap;
-  src: url("../fonts/Oswald-SemiBold.woff2") format("woff2"), url("../fonts/Oswald-SemiBold.woff") format("woff");
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
   font-family: Roboto;
   font-display: swap;
   src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
@@ -52,6 +45,13 @@
   font-display: swap;
   src: url("../fonts/Oswald-Medium.woff2") format("woff2"), url("../fonts/Oswald-Medium.woff") format("woff");
   font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Oswald;
+  font-display: swap;
+  src: url("../fonts/Oswald-Bold.woff2") format("woff2"), url("../fonts/Oswald-Bold.woff") format("woff");
+  font-weight: 700;
   font-style: normal;
 }
 h1,
@@ -91,7 +91,10 @@ img {
 }
 
 .header {
-  background-color: gray;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
 }
 
 .hader-nav {
@@ -104,7 +107,7 @@ img {
   font-size: 48px;
   font-weight: 700;
   line-height: 1.33;
-  color: #ffffff;
+  color: #080808;
 }
 
 .menu-container {
@@ -127,17 +130,17 @@ img {
   font-size: 24px;
   font-weight: 400;
   line-height: 1.21;
-  color: #ffffff;
+  color: #111010;
 }
 .hader-nav__link:hover, .hader-nav__link:focus {
   opacity: 0.7;
-  color: #ffffff;
+  color: #0a0a0a;
 }
 .hader-nav__link::before {
   display: block;
   position: absolute;
   width: 2px;
-  background-color: #fff;
+  background-color: rgb(17, 16, 16);
   content: "";
   transform: rotate(90deg);
   top: 33.3333333333%;
@@ -178,14 +181,9 @@ img {
 }
 
 .hero-section {
-  background-image: url(../src/img/HERO/hero-img_@2x.jpg) 0 0 no-repeat;
+  background-image: url(/img/HERO/hero-img_@2x.jpg) 0 0 no-repeat;
   width: 100%;
-  height: 400px;
   padding: 353px 0 253px 0;
-}
-
-.hero-dg {
-  width: 100%;
 }
 
 .hero-menu__list {
@@ -246,6 +244,17 @@ img {
   font-weight: 600;
   line-height: 1.48;
   color: #ffffff;
+}
+
+.main-galary__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.main-galary__img {
+  width: 474px;
+  height: 591px;
 }
 
 .footer {

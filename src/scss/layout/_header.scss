@@ -1,6 +1,10 @@
 .header {
-  background-color: gray;
+  // background-color: gray;
+  width: 100%;
   // position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 50;
 }
 .hader-nav {
   display: flex;
@@ -9,7 +13,7 @@
 .header-logo {
   font-family: Playfair Display SC;
   @include font(48px, 700, 1.33);
-  color: #ffffff;
+  color: #080808;
 }
 .menu-container {
   display: flex;
@@ -27,17 +31,17 @@
   position: relative;
   font-family: Patua One;
   @include font(24px, 400, 1.21);
-  color: #ffffff;
+  color: #111010;
   &:hover,
   &:focus {
     opacity: 0.7;
-    color: #ffffff;
+    color: #0a0a0a;
   }
   &::before {
     display: block;
     position: absolute;
     width: 2px;
-    background-color: #fff;
+    background-color: rgb(17, 16, 16);
     content: "";
     transform: rotate(90deg);
     top: calc(100% / 3);
